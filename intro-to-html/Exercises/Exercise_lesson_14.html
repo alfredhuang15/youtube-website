@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex {
+        width: 600px;
+        height: 400px;
+        position: fixed;
+        left: 0;
+        top: 0;
+      }
+
+      .pic {
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+        margin-top: 7px;
+        border-radius: 30px;
+        margin-left: 10px;
+
+      }
+
+      .profile {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 385px;
+        position: fixed;
+        padding-top: 15px;
+        padding-left: 10px;
+        background-color: rgb(53, 51, 51);
+      }
+
+      .text {
+        display: flex;
+        height: 400px;
+        width: 200px;
+        margin-left: 110px;
+        background-color: rgb(102, 97, 97);
+        flex-direction: column;
+        padding-left: 20px;
+      }
+
+      .info {
+        color: white;
+        display: inline-block;
+        
+      }
+      .channel {
+        color: rgb(34, 33, 33);
+        display: inline-block;
+        
+      }
+
+      .header {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+      }
+    
+
+      .plus {
+        color: white;
+        font-size: larger;
+        margin-right: 20px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="flex">
+
+    <div class="profile">
+      <img class="pic" src="practise-1.jpg">
+      <img class="pic" src="practise-2.jpg">
+      <img class="pic" src="practise-3.jpg">
+    </div>
+
+    <div class="text">
+      <div class="header">
+        <p class="info">INFO</p>
+        <p class="plus">+</p>
+      </div>
+      <p class="channel">#new-videos</p>
+      <p class="channel">#updates</p>
+      <p class="channel">#faq</p>
+      
+    </div>
+  </div>
+
+  </body>
+</html>

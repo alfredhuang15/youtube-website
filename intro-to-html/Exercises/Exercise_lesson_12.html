@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flexbox {
+        width: 500px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid lightgray;
+        border-radius: 8px;
+        justify-content: space-between;
+      }
+      
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 14px;
+        padding-top: 14px;
+      }
+
+      .word {
+        font-family: Arial;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .number {
+        font-family: Arial;
+        color: white;
+        font-size: 25px;
+        background-color: rgb(44, 149, 235);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 18px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="row">
+        <div class="word">Home</div>
+        <div class="number">14</div>
+      </div>
+
+      <div class="row">
+        <div class="word">Notifications</div>
+        <div class="number">3</div>
+      </div>
+
+      <div class="row">
+        <div class="word">Messages</div>
+        <div class="number">5</div>
+      </div>
+
+    </div>
+  </body>
+</html>
